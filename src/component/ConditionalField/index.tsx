@@ -3,7 +3,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import {
   conditionalFormSchema,
   ConditionalFormValues,
-} from "./conditional-form.schema";
+} from "./conditionalForm.schema";
 
 export interface ConditionalFormProps {
   onSubmit: (formValues: ConditionalFormValues) => void;

@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { netstedFormSchema, NetstedFormValues } from "./nested-form.schema";
+import { netstedFormSchema, NetstedFormValues } from "./nestedForm.schema";
 
 interface NetstedFormProps {
   onSubmit: (formValues: NetstedFormValues) => void;

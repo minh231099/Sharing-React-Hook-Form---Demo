@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm, useFieldArray } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { formArraySchema, FormArrayValues } from "./form-array.schema";
+import { formArraySchema, FormArrayValues } from "./formArray.schema";
 
 interface FormArrayProps {
   onSubmit: (data: FormArrayValues) => void;

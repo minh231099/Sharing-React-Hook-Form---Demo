@@ -5,6 +5,7 @@ import NetstedForm from "./component/NestedForm";
 import ConditionalForm from "./component/ConditionalField";
 import FormArray from "./component/FormArray";
 import CustomForm from "./component/CustomValidation";
+import UsingUseWatch from "./component/useWatchDemo/useWatchDemo";
 
 function App() {
   const [formData, setFormData] = useState({});
@@ -44,6 +45,8 @@ function App() {
           <DataPreview formData={formData} />
         </div>
       </div>
+
+      {/* <UsingUseWatch /> */}
     </div>
   );
 }
